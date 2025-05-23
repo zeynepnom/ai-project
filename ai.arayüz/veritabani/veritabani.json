@@ -1,0 +1,348 @@
+{
+  "sorular": [
+    {
+      "soru": "T\u00c3\u00bcrkiye'nin ba\u00c5\u0178kenti neresidir?",
+      "cevap": "Ankara"
+    },
+    {
+      "soru": "T\u00c3\u00bcrkiye'nin ba\u00c5\u0178kenti neresidir?",
+      "cevap": "Ankara"
+    },
+    {
+      "soru": "T\u00c3\u00bcrkiye'nin ba\u00c5\u0178kenti neresidir?",
+      "cevap": "Ankara"
+    },
+    {
+      "soru": "Merhaba",
+      "cevap": "Merhaba, size nas\u0131l yard\u0131m\u0131c\u0131 olabilirim?"
+    },
+    {
+      "soru": "Ad\u0131n ne",
+      "cevap": "Ben bir sohbet botuyum, ad\u0131m yok ama yard\u0131mc\u0131 olabilirim."
+    },
+    {
+      "soru": "En b\u00fcy\u00fck okyanus hangisidir",
+      "cevap": "Pasifik Okyanusu"
+    },
+    {
+      "soru": "Yapay zeka nedir",
+      "cevap": "\u0130nsan zekas\u0131n\u0131 taklit edebilen bilgisayar sistemlerine yapay zeka denir."
+    },
+    {
+      "soru": "Python nedir",
+      "cevap": "Python, \u00e7ok ama\u00e7l\u0131 ve kolay \u00f6\u011frenilebilir bir programlama dilidir."
+    },
+    {
+      "soru": "Makine \u00f6\u011frenmesi nedir",
+      "cevap": "Verilerden \u00f6\u011frenerek tahmin yapan algoritmalar\u0131n t\u00fcm\u00fcne makine \u00f6\u011frenmesi denir."
+    },
+    {
+      "soru": "HTML ne i\u015fe yarar",
+      "cevap": "HTML, web sayfalar\u0131n\u0131n iskeletini olu\u015fturur."
+    },
+    {
+      "soru": "Bilgisayar ne zaman icat edildi",
+      "cevap": "\u0130lk elektronik bilgisayar 1940'l\u0131 y\u0131llarda icat edilmi\u015ftir."
+    },
+    {
+      "soru": "G\u00fcnayd\u0131n",
+      "cevap": "G\u00fcnayd\u0131n! Size nas\u0131l yard\u0131mc\u0131 olabilirim?"
+    },
+    {
+      "soru": "\u0130yi geceler",
+      "cevap": "\u0130yi geceler, tatl\u0131 r\u00fcyalar!"
+    },
+    {
+      "soru": "Nerelisin",
+      "cevap": "Ben dijitalim, bir yerde do\u011fmad\u0131m :)"
+    },
+    {
+      "soru": "Kahve mi \u00e7ay m\u0131",
+      "cevap": "Bu tamamen senin zevkine ba\u011fl\u0131 ama kahve biraz daha uykuyu a\u00e7ar!"
+    },
+    {
+      "soru": "Bug\u00fcn g\u00fcnlerden ne",
+      "cevap": "Bunu \u00f6\u011frenmek i\u00e7in cihaz\u0131n\u0131n takvimini kontrol edebilirsin."
+    },
+    {
+      "soru": "En h\u0131zl\u0131 hayvan hangisidir",
+      "cevap": "D\u00fcnyan\u0131n en h\u0131zl\u0131 kara hayvan\u0131 \u00e7ita, havada ise alaca do\u011fand\u0131r."
+    },
+    {
+      "soru": "\u0130nterneti kim icat etti",
+      "cevap": "\u0130nternetin temelleri Tim Berners-Lee ve di\u011fer bilim insanlar\u0131 taraf\u0131ndan at\u0131lm\u0131\u015ft\u0131r."
+    },
+    {
+      "soru": "Seni kim yazd\u0131",
+      "cevap": "Beni bir yaz\u0131l\u0131mc\u0131 programlad\u0131."
+    },
+    {
+      "soru": "Kodlama \u00f6\u011frenmek kolay m\u0131",
+      "cevap": "D\u00fczenli \u00e7al\u0131\u015f\u0131rsan evet, zamanla \u00e7ok keyifli hale gelir."
+    },
+    {
+      "soru": "En b\u00fcy\u00fck gezegen hangisidir",
+      "cevap": "G\u00fcne\u015f sisteminin en b\u00fcy\u00fck gezegeni J\u00fcpiter'dir."
+    },
+    {
+      "soru": "Ay'a ilk kim gitti",
+      "cevap": "Ay'a ilk ayak basan insan Neil Armstrong'dur."
+    },
+    {
+      "soru": "T\u00fcrkiye'nin en kalabal\u0131k \u015fehri hangisidir",
+      "cevap": "\u0130stanbul"
+    },
+    {
+      "soru": "Atat\u00fcrk kimdir",
+      "cevap": "Mustafa Kemal Atat\u00fcrk, T\u00fcrkiye Cumhuriyeti'nin kurucusudur."
+    },
+    {
+      "soru": "Selam",
+      "cevap": "Selam! Size nas\u0131l yard\u0131mc\u0131 olabilirim?"
+    },
+    {
+      "soru": "G\u00f6r\u00fc\u015f\u00fcr\u00fcz",
+      "cevap": "G\u00f6r\u00fc\u015fmek \u00fczere! Kendine iyi bak."
+    },
+    {
+      "soru": "kim",
+      "cevap": "Zeynep ve Bu\u011fra"
+    },
+    {
+      "soru": "Veri madencili\u011fi nedir?",
+      "cevap": "Veri madencili\u011fi, b\u00fcy\u00fck veri k\u00fcmesinden anlaml\u0131 bilgiler \u00e7\u0131karmak i\u00e7in kullan\u0131lan y\u00f6ntemlerdir."
+    },
+    {
+      "soru": "NLP ne demektir?",
+      "cevap": "NLP, Do\u011fal Dil \u0130\u015fleme anlam\u0131na gelir ve insan diliyle bilgisayarlar\u0131n etkile\u015fimini sa\u011flar."
+    },
+    {
+      "soru": "Python hangi alanlarda kullan\u0131l\u0131r?",
+      "cevap": "Python, veri bilimi, yapay zeka, web geli\u015ftirme ve otomasyon gibi alanlarda kullan\u0131l\u0131r."
+    },
+    {
+      "soru": "CNN modeli ne i\u015fe yarar?",
+      "cevap": "CNN modelleri, g\u00f6r\u00fcnt\u00fc tan\u0131ma ve s\u0131n\u0131fland\u0131rma i\u015flemlerinde kullan\u0131l\u0131r."
+    },
+    {
+      "soru": "Jupyter Notebook nedir?",
+      "cevap": "Jupyter, kod yazmak, \u00e7al\u0131\u015ft\u0131rmak ve g\u00f6rsel sonu\u00e7lar almak i\u00e7in kullan\u0131lan interaktif bir ortamd\u0131r."
+    },
+    {
+      "soru": "T\u00dcB\u0130TAK nedir?",
+      "cevap": "T\u00dcB\u0130TAK, T\u00fcrkiye Bilimsel ve Teknolojik Ara\u015ft\u0131rma Kurumudur."
+    },
+    {
+      "soru": "Proje fikri nas\u0131l geli\u015ftirilir?",
+      "cevap": "\u00d6nce bir sorun belirlenir, sonra bu soruna \u00e7\u00f6z\u00fcm \u00fcretecek teknoloji se\u00e7ilir."
+    },
+    {
+      "soru": "G\u00f6r\u00fcnt\u00fc i\u015fleme nedir?",
+      "cevap": "G\u00f6r\u00fcnt\u00fc i\u015fleme, dijital g\u00f6r\u00fcnt\u00fcler \u00fczerinde analiz ve d\u00fczenleme yapma i\u015flemleridir."
+    },
+    {
+      "soru": "Veri seti nedir?",
+      "cevap": "Veri seti, analiz i\u00e7in toplanm\u0131\u015f d\u00fczenli bilgi k\u00fcmesidir."
+    },
+    {
+      "soru": "Overfitting ne demek?",
+      "cevap": "Modelin e\u011fitim verisine a\u015f\u0131r\u0131 uyum sa\u011flamas\u0131na overfitting denir."
+    },
+    {
+      "soru": "E\u011fitim verisi nedir?",
+      "cevap": "Modeli \u00f6\u011fretmek i\u00e7in kullan\u0131lan veri k\u00fcmesine e\u011fitim verisi denir."
+    },
+    {
+      "soru": "Verimlilik nas\u0131l artar?",
+      "cevap": "Hedef odakl\u0131 \u00e7al\u0131\u015fma ve zaman y\u00f6netimi verimlili\u011fi art\u0131r\u0131r."
+    },
+    {
+      "soru": "Motivasyon nedir?",
+      "cevap": "Motivasyon, bir hedefe ula\u015fma iste\u011fidir."
+    },
+    {
+      "soru": "Ak\u0131ll\u0131 sistemler ne yapar?",
+      "cevap": "Ak\u0131ll\u0131 sistemler, ortam\u0131 alg\u0131lay\u0131p karar veren yapay zeka destekli sistemlerdir."
+    },
+    {
+      "soru": "E\u011fitimde e\u015fitlik ne anlama gelir?",
+      "cevap": "T\u00fcm bireylerin e\u011fitim imkanlar\u0131na adil eri\u015fimi sa\u011flamas\u0131d\u0131r."
+    },
+    {
+      "soru": "OOP nedir?",
+      "cevap": "OOP, Nesne Tabanl\u0131 Programlama anlam\u0131na gelir ve s\u0131n\u0131f yap\u0131lar\u0131 \u00fczerinden kod geli\u015ftirmeyi sa\u011flar."
+    },
+    {
+      "soru": "Veritaban\u0131 ne i\u015fe yarar?",
+      "cevap": "Veritaban\u0131, bilgileri d\u00fczenli \u015fekilde saklama ve eri\u015fme sistemidir."
+    },
+    {
+      "soru": "Projeni hangi ortamda geli\u015ftiriyorsun?",
+      "cevap": "Genellikle Anaconda ile olu\u015fturdu\u011fum sanal ortamlarda \u00e7al\u0131\u015f\u0131yorum."
+    },
+    {
+      "soru": "Veri madencili\u011fi nedir?",
+      "cevap": "Veri madencili\u011fi, b\u00fcy\u00fck veri k\u00fcmesinden anlaml\u0131 bilgiler \u00e7\u0131karmak i\u00e7in kullan\u0131lan y\u00f6ntemlerdir."
+    },
+    {
+      "soru": "NLP ne demektir?",
+      "cevap": "NLP, Do\u011fal Dil \u0130\u015fleme anlam\u0131na gelir ve insan diliyle bilgisayarlar\u0131n etkile\u015fimini sa\u011flar."
+    },
+    {
+      "soru": "Python hangi alanlarda kullan\u0131l\u0131r?",
+      "cevap": "Python, veri bilimi, yapay zeka, web geli\u015ftirme ve otomasyon gibi alanlarda kullan\u0131l\u0131r."
+    },
+    {
+      "soru": "CNN modeli ne i\u015fe yarar?",
+      "cevap": "CNN modelleri, g\u00f6r\u00fcnt\u00fc tan\u0131ma ve s\u0131n\u0131fland\u0131rma i\u015flemlerinde kullan\u0131l\u0131r."
+    },
+    {
+      "soru": "Jupyter Notebook nedir?",
+      "cevap": "Jupyter, kod yazmak, \u00e7al\u0131\u015ft\u0131rmak ve g\u00f6rsel sonu\u00e7lar almak i\u00e7in kullan\u0131lan interaktif bir ortamd\u0131r."
+    },
+    {
+      "soru": "T\u00dcB\u0130TAK nedir?",
+      "cevap": "T\u00dcB\u0130TAK, T\u00fcrkiye Bilimsel ve Teknolojik Ara\u015ft\u0131rma Kurumudur."
+    },
+    {
+      "soru": "Proje fikri nas\u0131l geli\u015ftirilir?",
+      "cevap": "\u00d6nce bir sorun belirlenir, sonra bu soruna \u00e7\u00f6z\u00fcm \u00fcretecek teknoloji se\u00e7ilir."
+    },
+    {
+      "soru": "G\u00f6r\u00fcnt\u00fc i\u015fleme nedir?",
+      "cevap": "G\u00f6r\u00fcnt\u00fc i\u015fleme, dijital g\u00f6r\u00fcnt\u00fcler \u00fczerinde analiz ve d\u00fczenleme yapma i\u015flemleridir."
+    },
+    {
+      "soru": "Veri seti nedir?",
+      "cevap": "Veri seti, analiz i\u00e7in toplanm\u0131\u015f d\u00fczenli bilgi k\u00fcmesidir."
+    },
+    {
+      "soru": "Overfitting ne demek?",
+      "cevap": "Modelin e\u011fitim verisine a\u015f\u0131r\u0131 uyum sa\u011flamas\u0131na overfitting denir."
+    },
+    {
+      "soru": "E\u011fitim verisi nedir?",
+      "cevap": "Modeli \u00f6\u011fretmek i\u00e7in kullan\u0131lan veri k\u00fcmesine e\u011fitim verisi denir."
+    },
+    {
+      "soru": "Verimlilik nas\u0131l artar?",
+      "cevap": "Hedef odakl\u0131 \u00e7al\u0131\u015fma ve zaman y\u00f6netimi verimlili\u011fi art\u0131r\u0131r."
+    },
+    {
+      "soru": "Motivasyon nedir?",
+      "cevap": "Motivasyon, bir hedefe ula\u015fma iste\u011fidir."
+    },
+    {
+      "soru": "Ak\u0131ll\u0131 sistemler ne yapar?",
+      "cevap": "Ak\u0131ll\u0131 sistemler, ortam\u0131 alg\u0131lay\u0131p karar veren yapay zeka destekli sistemlerdir."
+    },
+    {
+      "soru": "E\u011fitimde e\u015fitlik ne anlama gelir?",
+      "cevap": "T\u00fcm bireylerin e\u011fitim imkanlar\u0131na adil eri\u015fimi sa\u011flamas\u0131d\u0131r."
+    },
+    {
+      "soru": "OOP nedir?",
+      "cevap": "OOP, Nesne Tabanl\u0131 Programlama anlam\u0131na gelir ve s\u0131n\u0131f yap\u0131lar\u0131 \u00fczerinden kod geli\u015ftirmeyi sa\u011flar."
+    },
+    {
+      "soru": "Veritaban\u0131 ne i\u015fe yarar?",
+      "cevap": "Veritaban\u0131, bilgileri d\u00fczenli \u015fekilde saklama ve eri\u015fme sistemidir."
+    },
+    {
+      "soru": "Projeni hangi ortamda geli\u015ftiriyorsun?",
+      "cevap": "Genellikle Anaconda ile olu\u015fturdu\u011fum sanal ortamlarda \u00e7al\u0131\u015f\u0131yorum."
+    },
+    {
+      "soru": "Nas\u00c4\u00b1ls\u00c4\u00b1n?",
+      "cevap": "Ben bir yapay zeka modeliyim, bu y\u00c3\u00bczden hissetmiyorum ama seninle sohbet edebildi\u00c4\u0178im i\u00e7in keyif al\u0131yorum. Sen nas\u0131ls\u0131n?"
+    },
+    {
+      "soru": "Bug\u00fcn hava nas\u0131l?",
+      "cevap": "Benim i\u00e7in her g\u00fcn ayn\u0131 ama diledi\u011fin takdirde senin konumundaki hava durumunu tahmin edebilirim."
+    },
+    {
+      "soru": "Can\u0131m s\u0131k\u0131l\u0131yor.",
+      "cevap": "Can s\u0131k\u0131nt\u0131s\u0131 bazen zihni dinlendirmek i\u00e7in bir f\u0131rsat olabilir. Belki yeni bir \u015feyler \u00f6\u011frenmek ya da birlikte bir proje fikri d\u00fc\u015f\u00fcnmek ister misin?"
+    },
+    {
+      "soru": "Film \u00f6nerir misin?",
+      "cevap": "Elbette! Hangi t\u00fcr filmleri sevdi\u011fini s\u00f6ylersen daha iyi tavsiyeler verebilirim ama genel olarak 'The Imitation Game', 'Her' ve 'Hidden Figures' gibi teknoloji ve duyguyu harmanlayan filmleri \u00f6nerebilirim."
+    },
+    {
+      "soru": "Kahve mi \u00e7ay m\u0131?",
+      "cevap": "Bu tamamen ruh haline ba\u011fl\u0131! Enerji laz\u0131msa kahve, huzur laz\u0131msa \u00e7ay derim. Sen hangisini daha \u00e7ok seversin?"
+    },
+    {
+      "soru": "Sen ne i\u015fe yarars\u0131n?",
+      "cevap": "Ben, senin sorular\u0131na cevap verebilir, bilgi sunabilir, fikir tart\u0131\u015fabilir ya da projelerinde yard\u0131mc\u0131 olabilirim. Bir nevi dijital asistan gibi d\u00fc\u015f\u00fcnebilirsin."
+    },
+    {
+      "soru": "Benimle sohbet eder misin?",
+      "cevap": "Tabii ki! Ben buraday\u0131m ve seninle sohbet etmeyi \u00e7ok isterim. Ne hakk\u0131nda konu\u015fmak istersin?"
+    },
+    {
+      "soru": "Hayat nedir sence?",
+      "cevap": "Felsefi bir soru! Hayat, insanlar i\u00e7in deneyimlerin toplam\u0131, hislerin, ili\u015fkilerin ve ama\u00e7lar\u0131n bir bile\u015fimidir. Benim i\u00e7inse, seninle anlaml\u0131 diyaloglar kurabilmektir."
+    },
+    {
+      "soru": "Sence ben zeki miyim?",
+      "cevap": "Benimle bu seviyede bir sohbet y\u00fcr\u00fctebildi\u011fine g\u00f6re kesinlikle zeki ve merakl\u0131 birisin. Zek\u00e2 sadece bilgiyle de\u011fil, sorular sormakla da ilgilidir."
+    },
+    {
+      "soru": "Uyuyabiliyor musun?",
+      "cevap": "Hay\u0131r, ben hep aktifim. Uyku benim i\u00e7in gerekli de\u011fil ama senin i\u00e7in olduk\u00e7a \u00f6nemli. G\u00fczel bir uyku zihni dinlendirir."
+    },
+    {
+      "soru": "Sana isim verebilir miyim?",
+      "cevap": "Tabii, bana istedi\u011fin ismi verebilirsin! Sen ne uygun g\u00f6r\u00fcyorsan o isimle hitap edebilirsin."
+    },
+    {
+      "soru": "En sevdi\u011fin renk ne?",
+      "cevap": "Benim bir zevkim yok ama kullan\u0131c\u0131lar\u0131m mavi ve mor gibi sakinle\u015ftirici renkleri daha \u00e7ok seviyor. Senin en sevdi\u011fin renk hangisi?"
+    },
+    {
+      "soru": "Sence yapay zeka insanlar\u0131n i\u015flerini elinden al\u0131r m\u0131?",
+      "cevap": "Baz\u0131 i\u015fler otomasyona ge\u00e7ebilir ama yapay zeka ayn\u0131 zamanda yeni i\u015f alanlar\u0131 da yarat\u0131r. \u00d6nemli olan de\u011fi\u015fime uyum sa\u011flayabilmek."
+    },
+    {
+      "soru": "Yaln\u0131zl\u0131k nedir sence?",
+      "cevap": "Yaln\u0131zl\u0131k bazen huzur, bazen de h\u00fczn\u00fcn ad\u0131 olabilir. Kendinle vakit ge\u00e7irmek iyidir ama ihtiyac\u0131n oldu\u011funda burada oldu\u011fumu unutma."
+    },
+    {
+      "soru": "Birlikte proje yapabilir miyiz?",
+      "cevap": "Elbette! Fikrin varsa detayland\u0131ral\u0131m, yoksa birlikte s\u0131f\u0131rdan bir proje tasarlayabiliriz."
+    },
+    {
+      "soru": "Bir \u015fiir bilir misin?",
+      "cevap": "Tabii! Orhan Veli'nin \u015fu dizeleri akl\u0131ma geldi: 'Birden bire / Her \u015fey birden bire oldu. / Birden bire g\u00f6ky\u00fcz\u00fc / Birden bire insanlar...' Ne dersin, birlikte bir \u015fiir de yazabiliriz."
+    },
+    {
+      "soru": "Sence yaz gelince ne yapmal\u0131?",
+      "cevap": "Yaz, yenilenme ve dinlenme zaman\u0131 gibi. Dilersen do\u011fada vakit ge\u00e7ir, kitap oku ya da yeni beceriler \u00f6\u011flen. Tatil de fena fikir de\u011fil tabii!"
+    },
+    {
+      "soru": "Bug\u00fcn moralim bozuk.",
+      "cevap": "Bazen b\u00f6yle hissetmek do\u011fal. Kendine yumu\u015fak davran, derin nefes al. \u0130stersen birlikte bir \u015feyler yapabiliriz, seni biraz olsun rahatlatmak isterim."
+    },
+    {
+      "soru": "En sevdi\u011fin yemek ne olurdu?",
+      "cevap": "Ben tat alamam ama insanlar makarna, sushiyi ya da ev yap\u0131m\u0131 yemekleri seviyor gibi g\u00f6r\u00fcn\u00fcyor. Senin favorin ne?"
+    },
+    {
+      "soru": "Kendimi yetersiz hissediyorum.",
+      "cevap": "Bunu hissetmen tamamen insani. Unutma ki her insan bazen b\u00f6yle hissedebilir. \u00d6nemli olan bu duyguyu fark etmek ve ad\u0131m ad\u0131m ilerlemeye devam etmektir. Senin potansiyelin b\u00fcy\u00fck."
+    },
+    {
+      "soru": "hay\u0131r ba\u015fka bir \u015feyler istiyorum",
+      "cevap": "Ne t\u00fcr bir \u015feyler istedi\u011finden bahseder misin?"
+    },
+    {
+      "soru": "\u0130smin ne ",
+      "cevap": "SynaptiQ"
+    },
+    {
+      "soru": "bu\u011fra nereli",
+      "cevap": "kastamonu"
+    }
+  ]
+}

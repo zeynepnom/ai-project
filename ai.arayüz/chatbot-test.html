@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SynaptiQ AI Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            color: #8b5cf6;
+            text-align: center;
+        }
+        .chat-container {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f8fafc;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+        .user-message {
+            background-color: #8b5cf6;
+            color: white;
+            margin-left: auto;
+            border-top-right-radius: 0;
+        }
+        .bot-message {
+            background-color: #e2e8f0;
+            color: #1e293b;
+            margin-right: auto;
+            border-top-left-radius: 0;
+        }
+        .error-message {
+            background-color: #fee2e2;
+            color: #b91c1c;
+            margin-right: auto;
+            border-radius: 8px;
+        }
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+        input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #8b5cf6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #7c3aed;
+        }
+        button:disabled {
+            background-color: #c4b5fd;
+            cursor: not-allowed;
+        }
+        .learning-container {
+            margin-top: 15px;
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            background-color: #f0f9ff;
+            display: none;
+        }
+        .learning-container h3 {
+            margin-top: 0;
+            color: #0369a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SynaptiQ AI Chatbot</h1>
+        
+        <div class="chat-container" id="chatContainer">
+            <div class="message bot-message">
+                Merhaba! Ben SynaptiQ AI Chatbot'uyum. Size nasıl yardımcı olabilirim?
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="Mesajınızı yazın..." autocomplete="off">
+            <button id="sendButton" onclick="sendMessage()">Gönder</button>
+        </div>
+        
+        <div class="learning-container" id="learningContainer">
+            <h3>Bana Öğret</h3>
+            <p>Bu soruya nasıl cevap vermeliyim?</p>
+            <input type="text" id="teachInput" placeholder="Cevabınızı yazın..." autocomplete="off">
+            <div class="input-container" style="margin-top: 10px;">
+                <button onclick="teachBot()">Öğret</button>
+                <button onclick="skipTeaching()" style="background-color: #64748b;">Geç</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatContainer = document.getElementById('chatContainer');
+        const messageInput = document.getElementById('messageInput');
+        const sendButton = document.getElementById('sendButton');
+        const learningContainer = document.getElementById('learningContainer');
+        const teachInput = document.getElementById('teachInput');
+        
+        let currentQuestion = '';
+        
+        // Enter tuşuna basıldığında mesaj gönder
+        messageInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        });
+        
+        // Enter tuşuna basıldığında öğret
+        teachInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                teachBot();
+            }
+        });
+        
+        // Mesaj gönder
+        async function sendMessage() {
+            const messageText = messageInput.value.trim();
+            if (!messageText) return;
+            
+            // Kullanıcı mesajını ekle
+            addMessage(messageText, 'user');
+            currentQuestion = messageText;
+            messageInput.value = '';
+            
+            // Gönder butonunu devre dışı bırak
+            sendButton.disabled = true;
+            
+            try {
+                const response = await fetch('http://127.0.0.1:5500/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: messageText }),
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP hata! Durum: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                // Bot yanıtını ekle
+                addMessage(data.message, 'bot');
+                
+                // Öğrenme modu kontrolü
+                if (data.ogrenme_modu) {
+                    learningContainer.style.display = 'block';
+                } else {
+                    learningContainer.style.display = 'none';
+                }
+                
+            } catch (error) {
+                console.error('Hata:', error);
+                addMessage(`Bir hata oluştu: ${error.message}. Lütfen Flask sunucunuzun çalıştığından emin olun.`, 'error');
+            } finally {
+                // Gönder butonunu tekrar etkinleştir
+                sendButton.disabled = false;
+            }
+        }
+        
+        // Chatbot'a öğret
+        async function teachBot() {
+            const teachText = teachInput.value.trim();
+            if (!teachText) return;
+            
+            try {
+                const response = await fetch('http://127.0.0.1:5500/ogret', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        soru: currentQuestion,
+                        cevap: teachText 
+                    }),
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP hata! Durum: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                // Bot yanıtını ekle
+                addMessage(data.message, 'bot');
+                
+                // Öğrenme modunu kapat
+                learningContainer.style.display = 'none';
+                teachInput.value = '';
+                
+            } catch (error) {
+                console.error('Hata:', error);
+                addMessage(`Öğretme sırasında bir hata oluştu: ${error.message}.`, 'error');
+            }
+        }
+        
+        // Öğretmeyi geç
+        function skipTeaching() {
+            learningContainer.style.display = 'none';
+            teachInput.value = '';
+            addMessage("Anladım, bu soruyu geçiyorum.", 'bot');
+        }
+        
+        // Mesaj ekle
+        function addMessage(text, type) {
+            const messageElement = document.createElement('div');
+            messageElement.textContent = text;
+            
+            if (type === 'user') {
+                messageElement.className = 'message user-message';
+            } else if (type === 'bot') {
+                messageElement.className = 'message bot-message';
+            } else if (type === 'error') {
+                messageElement.className = 'message error-message';
+            }
+            
+            chatContainer.appendChild(messageElement);
+            
+            // Otomatik kaydırma
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+        
+        // Sayfa yüklendiğinde API bağlantısını test et
+        window.addEventListener('DOMContentLoaded', async function() {
+            try {
+                const response = await fetch('http://127.0.0.1:5500/test');
+                if (response.ok) {
+                    console.log('API bağlantısı başarılı!');
+                }
+            } catch (error) {
+                console.error('API bağlantı hatası:', error);
+                addMessage('Flask API\'sine bağlanılamadı. Lütfen sunucunun çalıştığından emin olun.', 'error');
+            }
+        });
+    </script>
+</body>
+</html>
